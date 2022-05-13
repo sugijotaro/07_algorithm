@@ -48,6 +48,16 @@
                                     <action selector="clear" destination="BYZ-38-t0r" eventType="touchUpInside" id="w92-13-BiA"/>
                                 </connections>
                             </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="e37-jT-IBa">
+                                <rect key="frame" x="148.5" y="551" width="78" height="32"/>
+                                <fontDescription key="fontDescription" name="HiraginoSans-W6" family="Hiragino Sans" pointSize="20"/>
+                                <state key="normal" title="ランダム">
+                                    <color key="titleShadowColor" red="0.5" green="0.5" blue="0.5" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                </state>
+                                <connections>
+                                    <action selector="random" destination="BYZ-38-t0r" eventType="touchUpInside" id="u4i-yH-gs8"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="aCq-Ni-NFL"/>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
@@ -60,6 +70,8 @@
                             <constraint firstItem="fRb-7P-yXt" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" multiplier="0.6" id="aD5-f5-9FR"/>
                             <constraint firstItem="fLa-qU-cSF" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="eTL-IF-Hc4"/>
                             <constraint firstItem="ZPH-Qc-10D" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="fAR-Md-PPC"/>
+                            <constraint firstItem="e37-jT-IBa" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="hkQ-um-9L8"/>
+                            <constraint firstItem="e37-jT-IBa" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" multiplier="1.7" id="wcD-Bf-NTx"/>
                         </constraints>
                     </view>
                     <connections>
